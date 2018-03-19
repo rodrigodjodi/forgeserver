@@ -2,8 +2,8 @@
 
 module.exports = {
     credentials: {
-        client_id: "KiBrx6pRDrpUVB4ELA3zJj3PAh99REug",
-        client_secret: "Tx1eeUPGeCCt9P7g"
+        client_id: "",
+        client_secret: ""
     },
     scopeInternal: [
         'bucket:create',
