@@ -2,8 +2,8 @@
 
 module.exports = {
     credentials: {
-        client_id: "",
-        client_secret: ""
+        client_id: process.env.FORGE_CLIENT_ID,
+        client_secret: process.env.FORGE_CLIENT_SECRET
     },
     scopeInternal: [
         'bucket:create',
